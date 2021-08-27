@@ -9,7 +9,7 @@
                         <a href="<?= get_permalink(15); ?>">Platform</a>
                     </li>
                     <li>
-                        <a href="#">Plan</a>
+                        <a href="<?= get_permalink(18); ?>">Plan</a>
                     </li>
                     <li>
                         <a href="#">Enterprise</a>

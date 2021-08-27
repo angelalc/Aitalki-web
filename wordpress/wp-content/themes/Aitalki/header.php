@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     <li class="header__menu-li">
-                        <a href="#" class="header__menu-a">
+                        <a href="<?= get_permalink(18); ?>" class="header__menu-a">
                             <p>Plan</p>
                         </a>
                     </li>
