@@ -32,7 +32,7 @@
 
 .mockups
   &__container
-    padding: 3rem 5rem 3rem 10rem
+    padding: 3rem 2rem 3rem 2rem
   &__card
     &-left
       margin: 15rem auto
@@ -41,11 +41,12 @@
         margin-left: 35%
         img
           border-radius: 40px
+          width: 100%
       &--icon
         z-index: 1500
         position: absolute
         background-color: $color-white
-        left: 5rem
+        left: 3rem
         top: -6rem
         img
           width: 5.5rem
@@ -53,7 +54,7 @@
           border-radius: 15px
           padding: 1rem
       &--text
-        width: 30%
+        width: 40%
         position: absolute
         margin-left: 10%
         top: -8rem
@@ -69,14 +70,16 @@
     &-right
       position: relative
       &--img
+        margin-right: 35%
         img
           border-radius: 40px
+          width: 100%
       &--icon
         z-index: 1500
         position: absolute
         background-color: $color-white
         top: -5rem
-        left: 45rem
+        left: 32rem
         img
           width: 5.5rem
           box-shadow: 0 0 46px #00000029
@@ -84,9 +87,9 @@
           padding: 1rem
       &--text
         position: absolute
-        left: 50rem
+        left: 37rem
         top: -8rem
-        width: 30%
+        width: 40%
         z-index: 1000
         box-shadow: 0 0 46px #00000029
         padding: 1rem 3rem 1rem 5rem
@@ -100,6 +103,23 @@
 // Contacto
 
 .contact
+  background: $bg-degraded
+  border-radius: 150px 150px 0 0
+  margin-bottom: -10rem
   &__container
-    padding: 3rem 5rem 3rem 10rem
     text-align: center
+    padding: 5rem 12rem 20rem 12rem
+  &__text
+    h2
+      font-size: $main-title
+      color: $color-yellow
+    p
+      font-size: 1rem
+      color: $color-gray-text
+      margin-bottom: 3rem
+  &__button
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    img
+      width: 10rem

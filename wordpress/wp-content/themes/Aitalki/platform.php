@@ -65,8 +65,10 @@ get_header(); ?>
                <h2>Mantén la conversación activa</h2>
                <p>Aitalki es la solución inteligente que tu empresa necesita para entender en
                    profundidad qué es lo que tus clientes buscan, cuando te buscan.</p>
-               <a href="#" class="btn btn-blue">¡PRUÉBALO GRATIS!</a>
-               <img src="<?php bloginfo('template_url') ?>/dist/img/talki-mano.png" alt="">
+               <div class="contact__button">
+                   <a href="#" class="btn btn-blue">¡PRUÉBALO GRATIS!</a>
+                   <img src="<?php bloginfo('template_url') ?>/dist/img/talki-mano.png" alt="Talki">
+               </div>
            </div>
         </div>
     </section>
