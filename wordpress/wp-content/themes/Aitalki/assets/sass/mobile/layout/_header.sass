@@ -1,0 +1,42 @@
+// HEADER MOBILE
+
+.header
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  z-index: 1000
+  font-family: Poppins
+  background-color: $color-white
+  &__container
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: $container-menu-mb
+    box-shadow: 0 3px 6px $color-gray-shadow
+  &__logo
+    img
+      width: $logo-menu-mb
+  &__menu
+    img
+      width: 2rem
+    ul
+      display: none // Cambiar cuando se haga el menú
+      justify-content: space-between
+      margin: .75rem
+      li
+        margin: 0 2rem
+        a
+          color: $color-gray
+          p
+            border-bottom: .2rem solid transparent
+            &:hover
+              transition: .5s
+              border-bottom: .2rem solid $color-yellow
+  &__buttons
+    display: none // Cambiar cuando se haga el menú
+    a
+      margin: 0 1rem
+      color: $color-blue
+    p
+      margin: 0

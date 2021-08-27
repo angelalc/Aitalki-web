@@ -1,0 +1,46 @@
+// HEADER DESKTOP HOME
+
+.header
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  z-index: 5000
+  font-family: Poppins
+  background-color: $color-white
+  &__container
+    display: grid
+    grid-template-columns: 15rem 30rem 1fr
+    align-items: center
+    justify-content: space-between
+    padding: $container-menu-desktop
+    box-shadow: 0 3px 6px $color-gray-shadow
+  &__logo
+    img
+      width: $logo-menu-dt
+  &__menu
+    ul
+      display: flex
+      justify-content: space-between
+      margin: .75rem
+      li
+        margin: 0 2rem
+        a
+          color: $color-gray
+          p
+            border-bottom: .2rem solid transparent
+            &:hover
+              transition: .5s
+              border-bottom: .2rem solid $color-yellow
+    &-icon
+      img
+        display: none
+  &__buttons
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    a
+      margin: 0 1rem
+      color: $color-blue
+    p
+      margin: 0
