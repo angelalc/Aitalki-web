@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="header__menu-li">
-                        <a href="#" class="header__menu-a">
+                        <a href="<?= get_permalink(20); ?>" class="header__menu-a">
                             <p>Enterprise</p>
                         </a>
                     </li>

@@ -12,7 +12,7 @@
                         <a href="<?= get_permalink(18); ?>">Plan</a>
                     </li>
                     <li>
-                        <a href="#">Enterprise</a>
+                        <a href="<?= get_permalink(20); ?>">Enterprise</a>
                     </li>
                 </ul>
             </nav>
