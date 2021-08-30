@@ -7,7 +7,7 @@
   background: $bg-degraded
   border-radius: 0 0 150px 150px
   &__container
-    padding: 3rem 5rem 0 5rem
+    padding: 5rem 10rem 0 10rem
   &__flex
     display: grid
     grid-gap: 3rem
@@ -39,11 +39,58 @@
 // Info
 
 .info
+  margin: 10rem 0
   &__card-left
-    padding: 3rem 0 0 5rem
+    padding: 5rem 0 3rem 10rem
+    display: grid
+    grid-template-columns: 30% 1fr
+    grid-gap: 10rem
     &--text
       img
         width: 5rem
       h2
         color: $color-blue
         font-size: $main-title
+    &--img
+      img
+        width: 100%
+        border-radius: 100px 0 0 0
+  &__card-right
+    padding: 5rem 10rem 3rem 0
+    display: grid
+    grid-template-columns: 1fr 30%
+    grid-gap: 10rem
+    text-align: right
+    &--text
+      img
+        width: 5rem
+      h2
+        color: $color-blue
+        font-size: $main-title
+    &--img
+      img
+        width: 100%
+        border-radius: 100px 0 0 0
+
+// Solicita
+
+.solicita
+  background: $bg-degraded-nd
+  border-radius: 150px 150px 0 0
+  margin-bottom: -10rem
+  &__container
+    text-align: center
+    padding: 10rem 20rem 20rem 20rem
+  &__flex
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 5rem
+    &-img
+      text-align: right
+      img
+        width: 10rem
+    &-text
+      text-align: left
+      h2
+        font-size: $main-title
+        color: $color-yellow

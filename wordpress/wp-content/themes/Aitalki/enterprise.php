@@ -56,15 +56,13 @@ get_header(); ?>
                     </div>
                     <div class="info__card-left--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/diseña.png" alt="Mockup Aitalki">
-                        <div class="infor-card--bg"></div>
                     </div>
                 </div>
-                <div class="info__card-right--text">
-                    <div class="info__card-img">
+                <div class="info__card-right">
+                    <div class="info__card-right--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/diseña.png" alt="Mockup Aitalki">
-                        <div class="infor-card--bg"></div>
                     </div>
-                    <div class="info__card-text">
+                    <div class="info__card-right--text">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/icon-users.svg" alt="Usuarios ilimitados">
                         <h2>Usuarios ilimitados</h2>
                         <p>Gestiona todo tu equipo de operadores desde el panel de Aitalki. Asignalos a proyectos, analiza su productividad, revisa el historial de cada operador.
@@ -80,7 +78,19 @@ get_header(); ?>
                     </div>
                     <div class="info__card-left--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/diseña.png" alt="Mockup Aitalki">
-                        <div class="infor-card--bg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solicita">
+            <div class="solicita__container">
+                <div class="solicita__flex">
+                    <div class="solicita__flex-img">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/talki-der.png" alt="Talki">
+                    </div>
+                    <div class="solicita__flex-text">
+                        <h2>Solicita tu plan Enterprise</h2>
+                        <p>Contacta con Aitalki y prepararemos un presupuesto que se ajuste al perfil de tu empresa.</p>
                     </div>
                 </div>
             </div>
