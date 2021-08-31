@@ -21,36 +21,42 @@ get_header(); ?>
         <div class="mockups__container">
             <div class="mockups__card">
                 <div class="mockups__card-left">
-                    <div class="mockups__card-left--icon">
-                        <img src="<?php bloginfo('template_url') ?>/dist/img/red-icon.svg" alt="Red de Conexiones AI">
-                    </div>
-                    <div class="mockups__card-left--text">
-                        <h2>Construye tu Red de Conexiones AI</h2>
-                        <p>Aitalki te permite dar soporte ininterrumpido e inmediato a tus visitantes. No importa el momento del día, de la noche, o la parte del mundo en la que estén.</p>
+                    <div class="mockups__card-left--flex">
+                        <div class="mockups__card-left--icon">
+                            <img src="<?php bloginfo('template_url') ?>/dist/img/red-icon.svg" alt="Red de Conexiones AI">
+                        </div>
+                        <div class="mockups__card-left--text">
+                            <h2>Construye tu Red de Conexiones AI</h2>
+                            <p>Aitalki te permite dar soporte ininterrumpido e inmediato a tus visitantes. No importa el momento del día, de la noche, o la parte del mundo en la que estén.</p>
+                        </div>
                     </div>
                     <div class="mockups__card-left--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/red.png" alt="Red de conexiones">
                     </div>
                 </div>
                 <div class="mockups__card-right">
-                    <div class="mockups__card-right--icon">
-                        <img src="<?php bloginfo('template_url') ?>/dist/img/operador-icon.svg" alt="Operador">
-                    </div>
-                    <div class="mockups__card-right--text">
-                        <h2>Deriva la charla con un operador</h2>
-                        <p>Siempre tendrás la opción de derivar la conversación que comienza Talki con un humano. Gestiona desde la ventana de Chat, todas las charlas activas y qué perfil, Talki o un operador, está interactuando con los visitantes.</p>
+                    <div class="mockups__card-right--flex">
+                        <div class="mockups__card-right--icon">
+                            <img src="<?php bloginfo('template_url') ?>/dist/img/operador-icon.svg" alt="Operador">
+                        </div>
+                        <div class="mockups__card-right--text">
+                            <h2>Deriva la charla con un operador</h2>
+                            <p>Siempre tendrás la opción de derivar la conversación que comienza Talki con un humano. Gestiona desde la ventana de Chat, todas las charlas activas y qué perfil, Talki o un operador, está interactuando con los visitantes.</p>
+                        </div>
                     </div>
                     <div class="mockups__card-right--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/red.png" alt="Red de conexiones">
                     </div>
                 </div>
                 <div class="mockups__card-left">
-                    <div class="mockups__card-left--icon">
-                        <img src="<?php bloginfo('template_url') ?>/dist/img/diseña-icon.svg" alt="Diseña">
-                    </div>
-                    <div class="mockups__card-left--text">
-                        <h2>Diseña tu chat</h2>
-                        <p>El diseño de tu marca es lo que te identifica, por eso, el configurador de widget de Aitalki es muy simple e intuitivo de usar. Elige tus colores, tu logo y empieza a hablar con tu audiencia ya mismo!</p>
+                    <div class="mockups__card-left--flex">
+                        <div class="mockups__card-left--icon">
+                            <img src="<?php bloginfo('template_url') ?>/dist/img/diseña-icon.svg" alt="Diseña">
+                        </div>
+                        <div class="mockups__card-left--text">
+                            <h2>Diseña tu chat</h2>
+                            <p>El diseño de tu marca es lo que te identifica, por eso, el configurador de widget de Aitalki es muy simple e intuitivo de usar. Elige tus colores, tu logo y empieza a hablar con tu audiencia ya mismo!</p>
+                        </div>
                     </div>
                     <div class="mockups__card-left--img">
                         <img src="<?php bloginfo('template_url') ?>/dist/img/diseña.png" alt="Diseña">
@@ -67,6 +73,8 @@ get_header(); ?>
                    profundidad qué es lo que tus clientes buscan, cuando te buscan.</p>
                <div class="contact__button">
                    <a href="#" class="btn btn-blue">¡PRUÉBALO GRATIS!</a>
+               </div>
+               <div class="contact__img">
                    <img src="<?php bloginfo('template_url') ?>/dist/img/talki-mano.png" alt="Talki">
                </div>
            </div>

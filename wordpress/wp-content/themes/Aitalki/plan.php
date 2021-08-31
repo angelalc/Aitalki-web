@@ -103,43 +103,43 @@ get_header(); ?>
                     <div class="plans__label-text">
                         <p>Más popular</p>
                     </div>
-                    <div class="plans__premium">
-                        <div class="plans__premium-title">
-                            <h3>Premium</h3>
-                            <hr>
-                            <p>25€/mes</p>
-                        </div>
-                        <div class="plans__premium-btn">
-                            <a href="#" class="btn btn-gray">elegir plan</a>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p> 1 usuario</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p>1 chat</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p>Big data</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p>Machine learning</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p>Machine learning</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
-                            <p>Estadísticas <30 días</p>
-                        </div>
-                        <div class="plans__premium-text">
-                            <img src="<?php bloginfo('template_url') ?>/dist/img/equis.svg" alt="equis">
-                            <p class="disabled">50 preguntas/mes</p>
-                        </div>
+                </div>
+                <div class="plans__premium">
+                    <div class="plans__premium-title">
+                        <h3>Premium</h3>
+                        <hr>
+                        <p>25€/mes</p>
+                    </div>
+                    <div class="plans__premium-btn">
+                        <a href="#" class="btn btn-gray">elegir plan</a>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p> 1 usuario</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p>1 chat</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p>Big data</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p>Machine learning</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p>Machine learning</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/tick.svg" alt="tick">
+                        <p>Estadísticas <30 días</p>
+                    </div>
+                    <div class="plans__premium-text">
+                        <img src="<?php bloginfo('template_url') ?>/dist/img/equis.svg" alt="equis">
+                        <p class="disabled">50 preguntas/mes</p>
                     </div>
                 </div>
 
@@ -325,6 +325,8 @@ get_header(); ?>
             <p>Habla con Talki, estará encantado de conversar contigo</p>
             <div class="support__text-flex">
                 <a href="#" class="btn btn-blue">PREGUNTA A TALKI</a>
+            </div>
+            <div class="support__img">
                 <img src="<?php bloginfo('template_url') ?>/dist/img/talki-soporte.png" alt="Talki soporte">
             </div>
         </div>

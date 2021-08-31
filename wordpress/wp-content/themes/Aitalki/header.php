@@ -19,7 +19,7 @@
 
     <?php wp_head(); ?>
 </head>
-<header class="header">
+<header class="header page-header">
     <div class="header__container">
         <div class="header__logo">
             <a href="<?= get_permalink(2); ?>">
@@ -28,10 +28,11 @@
         </div>
         <div class="header__menu">
             <div class="header__menu-icon">
-                <img src="<?php bloginfo('template_url') ?>/dist/img/menu-icon.svg" alt="Menu">
+                <img src="<?php bloginfo('template_url') ?>/dist/img/menu-icon.svg" alt="Abrir Menu" id="open">
+                <img class="responsive-none" src="<?php bloginfo('template_url') ?>/dist/img/cerrar-menu.svg" alt="Cerrar Menu" id="close">
             </div>
             <nav>
-                <ul class="header__menu-ul">
+                <ul class="header__menu-ul menu-close">
                     <li class="header__menu-li">
                         <a href="<?= get_permalink(15); ?>" class="header__menu-a">
                             <p>Platform</p>
@@ -45,6 +46,17 @@
                     <li class="header__menu-li">
                         <a href="<?= get_permalink(20); ?>" class="header__menu-a">
                             <p>Enterprise</p>
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="header__menu-li dt-none">
+                        <a href="#>" class="header__menu-a">
+                            <p>Iniciar sesión</p>
+                        </a>
+                    </li>
+                    <li class="header__menu-li dt-none">
+                        <a href="#" class="header__menu-a">
+                            <p>Crear cuenta</p>
                         </a>
                     </li>
                 </ul>

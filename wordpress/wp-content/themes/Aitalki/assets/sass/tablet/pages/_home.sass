@@ -37,20 +37,18 @@
     color: $color-gray-text
     margin: 5rem auto
   &__card-left
-    margin: 10rem auto
+    margin: 5rem auto
     text-align: center
     position: relative
     &--icon
-      background-color: $color-white
       z-index: 1
-      position: absolute
-      left: 35vw
-      top: -6vw
+      margin-bottom: -2rem
       img
         width: 3.5rem
         box-shadow: 0 0 46px #00000029
         border-radius: 15px
         padding: .25rem
+        background-color: $color-white
     &--text
       text-align: left
       box-shadow: 0 0 46px #00000029
@@ -63,16 +61,14 @@
         color: $color-gray-text
         font-size: $text-tb
   &__card-right
-    margin-top: 7rem
+    margin: 5rem auto
     text-align: center
     position: relative
     &--icon
-      background-color: $color-white
       z-index: 1
-      position: absolute
-      left: 35vw
-      top: -6vw
+      margin-bottom: -2rem
       img
+        background-color: $color-white
         width: 3.5rem
         box-shadow: 0 0 46px #00000029
         border-radius: 15px
@@ -100,9 +96,11 @@
       padding-bottom: 2rem
     &-button
       display: flex
+      flex-direction: column
       justify-content: center
-      align-items: flex-start
+      align-items: center
       img
+        margin-top: 2rem
         width: 7rem
 
 // Freetrial
@@ -163,7 +161,8 @@
     &-text
       padding: 0 5rem
       display: grid
-      grid-template-columns: 3rem 1fr
+      grid-template-columns: 2rem 14rem
+      justify-content: center
       align-items: center
       img
         margin: 0 auto
@@ -190,7 +189,7 @@
         background-color: $color-green-avanzado
         border: none
       p
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         font-weight: 600
     &-btn
       text-transform: uppercase
@@ -199,8 +198,9 @@
     &-text
       padding: 0 5rem
       display: grid
-      grid-template-columns: 3rem 1fr
+      grid-template-columns: 2rem 14rem
       align-items: center
+      justify-content: center
       img
         width: 2rem
       p
@@ -221,7 +221,7 @@
       border-radius: 30px 30px 0 0
       text-align: center
       color: $color-white
-      font-size: 1.25rem
+      font-size: $nd-title-tb
       padding: .5rem 0
   &__premium
     margin-top: -.5rem
@@ -235,7 +235,7 @@
       text-align: center
       h3
         color: $color-pink-premium
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         text-transform: uppercase
       hr
         width: 100%
@@ -243,7 +243,7 @@
         background-color: $color-pink-premium
         border: none
       p
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         font-weight: 600
     &-btn
       text-transform: uppercase
@@ -252,7 +252,8 @@
     &-text
       padding: 0 5rem
       display: grid
-      grid-template-columns: 3rem 1fr
+      grid-template-columns: 2rem 14rem
+      justify-content: center
       align-items: center
       font-size: $text-mb
       img
@@ -271,7 +272,7 @@
       text-align: center
       h3
         color: $color-yellow-enterprise
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         text-transform: uppercase
       hr
         width: 100%
@@ -279,7 +280,7 @@
         background-color: $color-yellow-enterprise
         border: none
       p
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         font-weight: 600
     &-btn
       text-transform: uppercase
@@ -288,7 +289,8 @@
     &-text
       padding: 0 5rem
       display: grid
-      grid-template-columns: 3rem 1fr
+      grid-template-columns: 2rem 14rem
+      justify-content: center
       align-items: center
       img
         width: 2rem

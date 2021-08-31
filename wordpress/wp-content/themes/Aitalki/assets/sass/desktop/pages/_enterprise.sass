@@ -2,8 +2,7 @@
 
 // Enterprise
 .enterprise
-  margin-top: 5rem
-  margin-bottom: 5rem
+  margin: 5rem 0
   background: $bg-degraded
   border-radius: 0 0 150px 150px
   &__container
@@ -12,6 +11,7 @@
     display: grid
     grid-gap: 3rem
     grid-template-columns: 1fr 1fr
+    align-items: center
   &__text
     h1
       margin: 0 0 3rem 0
@@ -45,6 +45,7 @@
     display: grid
     grid-template-columns: 30% 1fr
     grid-gap: 10rem
+    align-items: center
     &--text
       img
         width: 5rem
@@ -61,16 +62,17 @@
     grid-template-columns: 1fr 30%
     grid-gap: 10rem
     text-align: right
+    align-items: center
     &--text
       img
-        width: 5rem
+        width: 4rem
       h2
         color: $color-blue
         font-size: $main-title
     &--img
       img
         width: 100%
-        border-radius: 100px 0 0 0
+        border-radius: 0 100px 0 0
 
 // Solicita
 
@@ -84,9 +86,9 @@
   &__flex
     display: grid
     grid-template-columns: 1fr 1fr
-    grid-gap: 5rem
+    align-items: center
     &-img
-      text-align: right
+      text-align: center
       img
         width: 10rem
     &-text
