@@ -189,7 +189,7 @@ get_header(); ?>
 <section class="compare responsive-none">
     <div class="compare__container">
         <div class="compare__title">
-            <h1>Compara los planes</h1>
+            <h2>Compara los planes</h2>
         </div>
         <div class="compare__table">
             <div class="compare__table-title">
@@ -276,7 +276,7 @@ get_header(); ?>
 <section class="faq">
     <div class="faq__container">
         <div class="faq__title">
-            <h1>Preguntas frecuentes</h1>
+            <h2>Preguntas frecuentes</h2>
         </div>
         <div class="faq__grid">
             <div class="faq__text">
@@ -319,7 +319,7 @@ get_header(); ?>
 <section class="support">
     <div class="support__container">
         <div class="support__title">
-            <h1>¿Tienes más preguntas?</h1>
+            <h2>¿Tienes más preguntas?</h2>
         </div>
         <div class="support__text">
             <p>Habla con Talki, estará encantado de conversar contigo</p>

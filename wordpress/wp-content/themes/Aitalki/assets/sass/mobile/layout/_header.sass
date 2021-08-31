@@ -31,17 +31,23 @@
       background-color: $color-gray-menu
       justify-content: space-between
       border-radius: 60px 60px 0 0
+      @media (min-height: 320px) and (max-height: 567px)
+        height: 70vh
+        padding-top: 2rem
       li
         a
           color: $color-gray
-          p
-            border-bottom: .2rem solid transparent
+        p
+          @media (min-height: 320px) and (max-height: 567px)
+            margin: 0
       hr
         margin: 3rem 0
         width: 20%
         height: .5px
         background-color: $color-gray-text
         border: none
+        @media (min-height: 320px) and (max-height: 567px)
+          margin: 1rem 0
   &__buttons
     display: none
 

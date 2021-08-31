@@ -24,15 +24,31 @@
       justify-content: space-between
       margin: .75rem
       li
-        margin: 0 2rem
+        margin: 1rem 2rem 0 2rem
         a
+          position: relative
+          overflow: hidden
+          display: inline-block
+          text-decoration: none
           color: $color-gray
           p
             border-bottom: .2rem solid transparent
-            margin: 0.25rem 0
-            &:hover
-              transition: .5s
-              border-bottom: .2rem solid $color-yellow
+            margin: 0
+            &:after
+              content: ""
+              position: absolute
+              bottom: 0
+              left: -100%
+              width: 100%
+              height: 2px
+              background: $color-yellow
+              transition: left .5s
+            &:hover:after
+              left: 0
+
+
+
+
       hr
         display: none
     &-icon
