@@ -130,15 +130,25 @@
 // Plans
 
 .plans
-  box-sizing: border-box
   &__container
-    padding: 3rem 10rem
+    margin-top: 10rem
+    padding: 3rem
+    @media (min-width: 1024px)
+      display: grid
+      grid-column-gap: 2rem
+      grid-template-columns: 1fr 1fr
+      grid-template-rows: 1fr 15rem 1fr 5rem
   &__basic
-    margin-top: 7rem
-    padding-bottom: 5rem
+    box-shadow: 0 0 46px #00000029
+    margin-top: 5rem
     padding-top: 1rem
+    padding-bottom: 5rem
     background-color: $color-gray-box
     border-radius: 30px
+    @media (min-width: 1024px)
+      grid-column: 1/2
+      grid-row: 1/2
+      margin-top: 0
     &-title
       padding-bottom: 3rem
       text-align: center
@@ -171,17 +181,22 @@
         padding-left: 1rem
         font-size: $text-tb
   &__advance
+    padding-top: 1rem
+    box-shadow: 0 0 46px #00000029
     margin-top: 5rem
     padding-bottom: 3rem
-    padding-top: 1rem
     background-color: $color-gray-box
     border-radius: 30px
+    @media (min-width: 1024px)
+      grid-column: 2/3
+      grid-row: 1/2
+      margin-top: 0
     &-title
       padding-bottom: 3rem
       text-align: center
       h3
         color: $color-green-avanzado
-        font-size: $nd-title-mb
+        font-size: $nd-title-tb
         text-transform: uppercase
       hr
         width: 100%
@@ -208,12 +223,16 @@
         font-size: $text-tb
   &__label
     margin-top: 10rem
-    margin-bottom: -1rem
     position: relative
+    border-radius: 30px 30px 0 0
+    @media (min-width: 1024px)
+      grid-column: 1/2
+      grid-row: 2/3
+      margin-top: 10rem
     &-talki
       img
         position: absolute
-        left: 28vw
+        left: 40%
         top: -5.65rem
         width: 10rem
     &-text
@@ -224,12 +243,16 @@
       font-size: $nd-title-tb
       padding: .5rem 0
   &__premium
-    margin-top: -.5rem
+    box-shadow: 0 0 46px #00000029
+    margin-top: 0
     padding-bottom: 3rem
     padding-top: 1rem
     width: 100%
     background-color: $color-gray-box
-    border-radius: 0 0  30px 30px
+    border-radius:  0 0 30px 30px
+    @media (min-width: 1024px)
+      grid-column: 1/2
+      grid-row: 3/5
     &-title
       padding-bottom: 3rem
       text-align: center
@@ -262,11 +285,16 @@
         padding-left: 1rem
         font-size: $text-tb
   &__enterprise
+    box-shadow: 0 0 46px #00000029
     margin-top: 5rem
     padding-bottom: 3rem
     padding-top: 1rem
     background-color: $color-gray-box
     border-radius: 30px
+    @media (min-width: 1024px)
+      grid-column: 2/3
+      grid-row: 3/4
+      margin-top: 0
     &-title
       padding-bottom: 3rem
       text-align: center
