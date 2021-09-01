@@ -20,7 +20,7 @@
         <div class="footer__logo">
             <p>Proyecto realizado por</p>
             <div class="footer__logo-img">
-                <a href="#">
+                <a target="_blank" href="https://www.essedi.es/">
                     <img src="<?php bloginfo('template_url') ?>/dist/img/logo_02.png" alt="Essedi">
                 </a>
             </div>
