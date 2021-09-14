@@ -10,7 +10,7 @@ get_header(); ?>
                 <h1>Da el primer paso, comienza la charla</h1>
                 <p>La plataforma de Aitalki permite visualizar y manejar tus ventanas de chat activas.
                 Podrás chequear estadísticas y modificar tus estrategias de Márketing según la actividad de los usuarios.</p>
-                <a href="#" class="btn btn-blue">¡PRUÉBALO GRATIS</a>
+            <a href="#" class="btn btn-blue">¡PRUÉBALO GRATIS!</a>
             </div>
             <div class="platform__mockup">
                 <img src="<?php bloginfo('template_url') ?>/dist/img/mockupchat.png" alt="Chat Aitalki">
